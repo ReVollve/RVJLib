@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'de.revollve'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.ini4j:ini4j:0.5.4'
+}
