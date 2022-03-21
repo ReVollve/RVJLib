@@ -8,9 +8,13 @@ import org.ini4j.Wini;
  * To use create a new object of this and use the <code>#get()</code> method to retrieve the actual string that should be represented.
  * You have to create a <code>lang.ini</code> file in your resource folder or you specify a path for the translations in the second constructor.
  * All constructors take a string which is used to find the translation. It is the address for the translation.
- * <br><br>Use it like
- * <br><code>identifier=actual translation</code><br><br>
- * Open a new section with <code>[language]</code> to write your identifier in.<br><br>
+ * <br><br>
+ * Use it like
+ * <br>
+ * <code>identifier=actual translation</code>
+ * <br><br>
+ * Open a new section with <code>[language]</code> to write your identifier in.
+ * <br><br>
  * @apiNote  Wont work without the org.ini4j api.
  * @see org.ini4j.Wini
  * @version 1.1
@@ -26,7 +30,9 @@ public class Translation {
     private boolean missing_file = false;
     private boolean missing_trans = false;
 
-    /** Set true to enable exception logging */
+    /**
+     * Set true to enable exception logging
+     */
     public static boolean log_err = false;
     /**
      * This can be anything, it refers to the section name, where your translation stands.
