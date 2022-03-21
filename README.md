@@ -12,3 +12,4 @@ Brings greater usage to the args from main function
 ### Translation.java
 
 Translation config for strings
+Depends on [Ini4j](https://mvnrepository.com/artifact/org.ini4j/ini4j)
