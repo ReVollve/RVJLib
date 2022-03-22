@@ -2,8 +2,8 @@
 This project contains some of my java files, which I use sometimes. 
 
 ## Projects
-* [RVArgs.java](#RVArgs.java)
-* [Translation.java](#Translation.java)
+* [RVArgs.java](###RVArgs.java)
+* [Translation.java](###Translation.java)
 
 ### [RVArgs.java](https://github.com/ReVollve/RVJLib/blob/master/src/main/java/de/revollve/lib/config/RVArgs.java)
 
