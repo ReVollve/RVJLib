@@ -3,7 +3,7 @@ package de.revollve.lib.config;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class StartParameters {
+public class RVArgs {
     private HashMap<String, String> map = new HashMap<>();
 
     /**
@@ -16,7 +16,7 @@ public class StartParameters {
      * @param args Args from <code>public static void main(String[] <strong>args</strong>)</code>
      * @param prefix Token to look for when reading the args
      */
-    public StartParameters(String[] args, String prefix) {
+    public RVArgs(String[] args, String prefix) {
         if (Arrays.stream(args).count() == 0) throw new IllegalArgumentException("No args");
         for (int i = 0; i < args.length; i++) {
             String arg = args[i];
