@@ -7,7 +7,21 @@ This project contains some of my java files, which I use sometimes.
 
 ### [RVArgs.java](https://github.com/ReVollve/RVJLib/blob/master/src/main/java/de/revollve/lib/config/RVArgs.java)
 
-Brings greater usage to the args from main function
+Brings greater usage to the args from main function.\
+Usage:
+```
+javafile.jar -color green -name revollve
+
+...
+
+public static void main(String[] args) {
+    StartParameters sp = new StartParameters(args, "-");
+    System.out.println(sp.get("color"));
+    --> green
+    System.out.println(sp.get("name"));
+    --> revollve
+}
+```
 
 ### [Translation.java](https://github.com/ReVollve/RVJLib/blob/master/src/main/java/de/revollve/lib/config/Translation.java)
 
