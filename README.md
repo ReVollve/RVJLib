@@ -35,7 +35,7 @@ Static settings:
   * Alternative way to change the language
 * string msg_missing_file = "[missing lang file]"
   * Translation message when config file is missing
-* string msg_missing_translation
+* string msg_missing_translation = "[missing translation]"
   * Translation message when translation is missing
 
 Depends on [Ini4j](https://mvnrepository.com/artifact/org.ini4j/ini4j)
