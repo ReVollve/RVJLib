@@ -1,9 +1,11 @@
 ## RVJLib
 This project contains some of my java files, which I use sometimes. 
 
-## Projects
-* [RVArgs.java](#RVArgsjava)
-* [Translation.java](#Translationjava)
+## Table of contents
+* Projects
+    * [RVArgs.java](#RVArgsjava)
+    * [Translation.java](#Translationjava)
+* [Changelog](#Changelog)
 
 ### [RVArgs.java](https://github.com/ReVollve/RVJLib/blob/master/src/main/java/de/revollve/lib/config/RVArgs.java)
 
@@ -74,3 +76,6 @@ Hagebuddne
 It's gone
 ```
 Depends on [Ini4j](https://mvnrepository.com/artifact/org.ini4j/ini4j)
+
+## Changelog
+Nothing here yet
