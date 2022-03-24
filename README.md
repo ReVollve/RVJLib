@@ -38,4 +38,24 @@ Static settings:
 * string msg_missing_translation = "[missing translation]"
   * Translation message when translation is missing
 
+Full example with config as shown above:
+```
+Translation ts = new Translation("message1");
+System.out.println(ts.get());
+--> Hello, this is in english
+
+Translation.language = "german"
+System.out.println(new Translation("message2").get());
+--> Hagebuddne
+
+System.out.println(new Translation("test").get());
+--> [missing translation]
+
+Translation.msg_missing_file = "It's gone";
+
+System.out.println(new Translation("test2", "not_existing.ini").get());
+--> It's gone
+
+```
+
 Depends on [Ini4j](https://mvnrepository.com/artifact/org.ini4j/ini4j)
