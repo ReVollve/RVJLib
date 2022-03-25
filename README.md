@@ -17,10 +17,10 @@ javafile.jar -color green -name revollve
 ...
 
 public static void main(String[] args) {
-    StartParameters sp = new StartParameters(args, "-");
-    System.out.println(sp.get("color"));
+    RVArgs rv = new RVArgs(args, "-");
+    System.out.println(rv.get("color"));
     --> green
-    System.out.println(sp.get("name"));
+    System.out.println(rv.get("name"));
     --> revollve
 }
 ```
